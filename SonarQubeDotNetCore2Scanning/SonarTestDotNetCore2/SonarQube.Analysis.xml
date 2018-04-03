@@ -5,7 +5,7 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
 
 <Property Name="sonar.host.url">http://localhost:9000</Property>
-<Property Name="sonar.login">29aecf5d89adbf10842793aa4a1bbcf3838c175d</Property>
+<Property Name="sonar.login">[Token]</Property>
 <Property Name="sonar.projectKey">SonarTestDotNetCore2</Property>
 <Property Name="sonar.projectName">SonarTestDotNetCore2</Property>
 <Property Name="sonar.projectVersion">1.0</Property>
