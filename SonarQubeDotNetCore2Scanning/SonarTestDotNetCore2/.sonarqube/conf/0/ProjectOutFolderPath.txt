@@ -1,0 +1,1 @@
+/Users/nunocancelo/dev/repo/github/masterzdran/SonarQubeExamples/SonarQubeDotNetCore2Scanning/SonarTestDotNetCore2/.sonarqube/out/0
