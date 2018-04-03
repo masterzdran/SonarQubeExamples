@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.fundisk</groupId>
+  <artifactId>sonarqubescan.maven.examples</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>sonarqubescan.maven.examples Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+  	<sonar.projectKey>SonarTestMaven</sonar.projectKey>
+	<sonar.projectName>SonarTestMaven</sonar.projectName>
+	<sonar.projectVersion>1.0</sonar.projectVersion>	  
+	<sonar.login>222705f5644db349195cb2cde7053f45d5d64eaa</sonar.login>
+	<sonar.password/>
+	<sonar.sources>./src</sonar.sources>
+	<sonar.java.binaries>./target</sonar.java.binaries>
+	<sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
+  
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>sonarqubescan.maven.examples</finalName>
+	  <pluginManagement>
+	    <plugins>
+	      <plugin>
+	        <groupId>org.sonarsource.scanner.maven</groupId>
+	        <artifactId>sonar-maven-plugin</artifactId>
+	        <version>3.4.0.905</version>
+	      </plugin>
+	    </plugins>
+	  </pluginManagement>
+  </build>
+</project>
